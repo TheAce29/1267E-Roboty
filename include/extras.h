@@ -1,0 +1,12 @@
+using namespace vex;
+  void drawLogo();
+  void autoforward(int speed, float distance, float sleep);
+  void turn(int speed, float distance, float sleep);
+  void marm(float distance, float sleep); 
+  void mintake(float distance, float sleep);
+  void coastbrake();
+  void chicken(bool value, float sleep);
+  void printstuff();
+  void degturn(float speed, float angle, bool dir, float sleep);
+  void pidmove(float revolution);
+  void pidturn(float angle, bool dir=false);
