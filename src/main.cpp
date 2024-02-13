@@ -129,6 +129,7 @@ void usercontrol(void) {
   bool toggle = false;
   bool tog = false;
   bool armthing = false;
+  /*
   int vmin = 1;
   int vsec = 30;
   if (lor == 3){
@@ -137,6 +138,7 @@ void usercontrol(void) {
   else {
     int vsec = 30;
   }
+  */
   wait(20,msec);
   while (1) {
     drawLogo();
@@ -263,9 +265,9 @@ else{
   }
   //Con1.Screen.setCursor(1,0);
   //Con1.Screen.print("Time: %d:%d",vmin,vsec);
-  Con1.Screen.setCursor(2,0);
+  Con1.Screen.setCursor(1,0);
   Con1.Screen.print("Battery: %d%%",Brain.Battery.capacity());
-  Con1.Screen.setCursor(3,0);
+  Con1.Screen.setCursor(2,0);
   Con1.Screen.print("Launch: %d, %d RPM",toggle, launch.velocity(rpm)*7);
     wait(20, msec); // Sleep the task for a short amount of time to
                     // prevent wasted resources.
