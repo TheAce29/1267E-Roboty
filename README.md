@@ -1,1 +1,1 @@
-This is the code for the VEX Robotics team 1267E: Extracurricular Activity for the 2023-2024 season: Over Under.
+This is the code for the VEX Robotics team 1267E: Extracurricular Activity for the 2023-2024 season: Over Under. This repo was started on 2/12/24, but the season began in September. If using this code, please credit TheAce29. Thank you.
