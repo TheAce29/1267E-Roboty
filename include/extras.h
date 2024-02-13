@@ -1,5 +1,4 @@
 using namespace vex;
-  void drawLogo();
   void autoforward(int speed, float distance, float sleep);
   void turn(int speed, float distance, float sleep);
   void marm(float distance, float sleep); 
@@ -10,3 +9,4 @@ using namespace vex;
   void degturn(float speed, float angle, bool dir, float sleep);
   void pidmove(float revolution);
   void pidturn(float angle, bool dir=false);
+  void autolaunch(bool ss);

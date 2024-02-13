@@ -1,6 +1,5 @@
 using namespace vex;
 void skillsauton();
-void autolaunch();
 /*
   void autoforward(int speed, float distance, float sleep);
   void slide(int speed, float distance);

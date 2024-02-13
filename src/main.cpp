@@ -93,6 +93,7 @@ void pre_auton(void) {
 
 void autonomous(void) {
   wait(30,msec);
+  logo();
   //lor = 1;
   if (lor == 0){
     lor = 0;
@@ -140,8 +141,8 @@ void usercontrol(void) {
   }
   */
   wait(20,msec);
+  logo();
   while (1) {
-    drawLogo();
     
     //This code is for movement (forward/backward,left/right/shift)
     double ch1=Con1.Axis1.position();

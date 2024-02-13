@@ -21,6 +21,7 @@
 #include "shooting.h"
 #include "extras.h"
 #include "skills.h"
+#include "logo.h"
 
 #define waitUntil(condition)                                                   \
   do {                                                                         \
